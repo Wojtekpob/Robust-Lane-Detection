@@ -2,9 +2,7 @@
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install -y python3.8 python3.8-venv python3.8-dev python3-pip
-
-sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
+sudo apt install -y python3.10 python3.10-dev python3.10-venv python3-pip
 
 wget https://developer.download.nvidia.com/compute/cuda/8.0/Prod2/local_installers/cuda_8.0.61_375.26_linux-run
 chmod +x cuda_8.0.61_375.26_linux-run
